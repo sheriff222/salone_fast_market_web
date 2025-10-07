@@ -1,0 +1,5 @@
+{
+     "buildCommand": "flutter build web",
+     "outputDirectory": "build/web",
+     "installCommand": "if [ ! -d \"$HOME/flutter\" ]; then git clone https://github.com/flutter/flutter.git $HOME/flutter; fi && export PATH=\"$PATH:$HOME/flutter/bin\" && flutter precache && flutter pub get"
+   }
